@@ -15,7 +15,7 @@
 #    from_port       = var.db_port
 #    to_port         = var.db_port
 #    protocol        = "tcp"
-#    cidr_blocks = ["192.168.50.0/24", "172.16.10.0/23", "10.10.0.0/24", var.aws_vpc_cidr_block, "10.20.0.0/24"]
+#    cidr_blocks = ["192.168.x.0/24", "172.16.x.x/23", "10.10.0.0/24", var.aws_vpc_cidr_block, "10.20.x.x/24"]
 #  }
 #
 #  egress {
