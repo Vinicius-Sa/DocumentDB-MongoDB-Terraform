@@ -24,7 +24,7 @@ variable "master_username" {
 
 variable "master_password" {
   type        = string
-  default     = "b7htC2S21$zD"
+  default     = ""
   description = "Password for the master DB user (Required unless a snapshot_identifier is provided) "
 }
 
