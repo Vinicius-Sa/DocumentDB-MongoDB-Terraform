@@ -130,7 +130,7 @@ resource "aws_security_group" "docdb_sg" {
     from_port       = 27017
     to_port         = 27017
     protocol        = "tcp"
-    cidr_blocks = ["192.168.50.0/24", "172.16.10.0/23", "10.10.0.0/24", "10.20.0.0/24"]
+    cidr_blocks = ["192.168.xx.0/24", "172.16.xx.0/23", "10.10.0.0/24", "10.20.0.0/24"]
   }
 
   egress {
