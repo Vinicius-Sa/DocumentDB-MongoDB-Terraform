@@ -30,31 +30,31 @@ variable "list_port_service_container" {
 variable "aws_vpc_cidr_block" {
   type        = string
   description = "CIDR block for the VPC."
-  default     = "10.100.0.0/16"
+  default     = "xx.xx.0.0/16"
 }
 
 variable "aws_subnet_private_subnet_a" {
   type        = string
   description = "CIDR block for the VPC."
-  default     = "10.100.0.0/24"
+  default     = "xx.xxx.0.0/24"
 }
 
 variable "aws_subnet_private_subnet_b" {
   type        = string
   description = "CIDR block for the VPC."
-  default     = "10.100.1.0/24"
+  default     = "xx.xxx.1.0/24"
 }
 
 variable "aws_subnet_public_subnet_a" {
   type        = string
   description = "CIDR block for the VPC."
-  default     = "10.100.2.0/24"
+  default     = "xx.xxx.2.0/24"
 }
 
 variable "aws_subnet_public_subnet_b" {
   type        = string
   description = "CIDR block for the VPC."
-  default     = "10.100.3.0/24"
+  default     = "xx.xxx.3.0/24"
 }
 
 variable "environment" {
